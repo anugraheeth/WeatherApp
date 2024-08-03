@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --padding :14px;
+    color: white;
+    font-family: 'MuseoModerno',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+}
+
+body{
+    background-color: black;
+}
+
+
+.nav{
+    display: flex;
+    align-items:start;
+    justify-content: space-around;
+    margin: 2% 3%;
+}
+
+.icon{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 2%;
+}
+
+h2{
+    font-size: x-large;
+}
+
+.search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 28px;
+    width: 300px;
+    margin-top: 25px;
+    
+}
+
+.sug{
+    z-index: 999;
+}
+.searchinput{
+    font-family: 'Lexend',sans-serif;
+    margin-left: var(--padding);
+    color: #333333;
+    outline: none;
+    background: transparent;
+    border:none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.searchicon{
+    color: red;
+}
+
+  ul{
+    display: block;
+    color: white;
+    margin-left: 8%;
+    list-style: none;
+    margin-top: 2%;
+  }
+  li{
+    margin: 2%;
+    background-color: #2a2929b5;
+    max-width: 250px;
+    padding:10px;
+    border-radius:10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+li span{
+    color: #ff060664;
+}
+
+
+.degree{
+    font-size : 4rem;
+    ;
+}
+
+
+h3{
+    font-size: 2rem;
+}
+
+.city{
+    color: red;
+    font-size: 3rem;
+}
+
+.weather{
+    z-index: -1;
+    display: block;
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.info{
+    display: grid;
+    margin: 2% 1%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.value{
+    font-size: 2rem;
+}
+
+
+.info span{
+    font-size: 1rem;
+    color: rgba(255, 0, 0, 0.501);
+}
+.landing {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.landing .icon{
+    font-size: 7rem;
+}
