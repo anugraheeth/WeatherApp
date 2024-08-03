@@ -24,7 +24,7 @@ SimplyWeather is a web application that allows users to search for weather infor
 
 ## Live Demo
 
-[Click here to see the live demo]([(https://anugraheeth.github.io/WeatherApp/)])
+[Click here to see the live demo](https://anugraheeth.github.io/WeatherApp/)
 
 ### Installation
 
