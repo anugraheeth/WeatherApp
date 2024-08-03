@@ -31,4 +31,4 @@ SimplyWeather is a web application that allows users to search for weather infor
 1. Clone the repository or download the source code.
 
    ```bash
-   git clone https://github.com/your-username/SimplyWeather.git
+   git clone https://github.com/anugraheeth/SimplyWeather.git
