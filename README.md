@@ -22,6 +22,10 @@ SimplyWeather is a web application that allows users to search for weather infor
 - A web browser.
 - Internet connection.
 
+## Live Demo
+
+[Click here to see the live demo]((https://anugraheeth.github.io/WeatherApp/))
+
 ### Installation
 
 1. Clone the repository or download the source code.
